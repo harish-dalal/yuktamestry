@@ -1,0 +1,142 @@
+.home{
+    font-size: 2rem;
+    height: 100vh;
+    width:100vw;
+    background: url(../sources/bridge.jpg) center;
+    background-attachment: fixed;
+    top:0px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+.transparent{
+    color: white;
+    display: grid;
+    grid-template-columns: 40px auto 20px auto;
+    grid-template-rows: 1px 20vh auto auto 10px;
+    background: #000000c0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.transparent .center{
+    font-family: 'Muli';
+    color: rgba(255, 255, 255, 0.8);
+    justify-self: center;
+    align-self: start;
+    grid-row-start: 3;
+    text-align: left;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.transparent h1{
+
+    line-height: 5rem;
+    font-size: 5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 2px 15px rgba(255, 255, 255, 0.13);
+}
+.transparent p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+}
+
+.transparent .scroll_down_c{
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+    align-self: start;
+    position: relative;
+    font-family: 'Muli';
+    font-size: 1.2rem;
+    justify-self: end;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.transparent .scroll_to_contact_c{
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    align-self: end;
+    position: relative;
+    margin: 30px;
+    font-family: 'Muli';
+    font-size: 1.5rem;
+    justify-self: start;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+a:visited{
+    color: white;
+    text-decoration:none;
+}
+
+.social-logo{
+    margin-left: 20px;
+    align-self: flex-end;
+    text-align: center;
+    justify-self: center;
+    display: inline;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.social-logo a{
+    margin: 5px;
+}
+
+.insta::before{
+    background-image: url('../sources/link.png');
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    margin-bottom: 20px;
+}
+
+.face::before{
+    background-image: url('../sources/insta.png');
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    margin-bottom: 20px;
+}
+
+.linkd::before{
+    background-image: url('../sources/face.png');
+    background-size: 30px 30px;
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    content:"";
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .transparent h1{
+        line-height: 1em;
+        font-size: 1.8em;
+    }
+    .transparent p{
+        font-size: 0.8em;
+    }
+    .transparent .scroll_down_c{
+        font-size: .8rem;
+        margin-right: 20px;
+    }
+}

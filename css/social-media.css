@@ -1,0 +1,38 @@
+.social-media{
+    height: 100vh;
+    width: auto;
+    background: url(../sources/social_back.jpg) center;
+    background-attachment: fixed;
+    /* top:0px; */
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.black-container{
+    background-color: #000000de;
+    text-align: center;
+    height: 100vh;
+    /* color:white; */
+}
+
+.black-container .headline-social{
+    color: white;
+    /* margin-top: 1rem; */
+    font-size: 2rem;
+    /* margin-top: 30px; */
+}
+
+.social-media-icons-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px){
+    .social-media-icons-container{
+        flex-direction: column;
+    }
+}

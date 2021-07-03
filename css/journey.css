@@ -1,0 +1,26 @@
+.journey{
+    height: 100vh;
+    width: auto;
+    background: url(../sources/journey.jpg ) center;
+    background-attachment: fixed;
+    /* top:0px; */
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.black-container-journey{
+    background-color: #0000009e;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.journey-text{
+    font-family: 'Pacifico', cursive;
+    color: #d5d5d5;
+    text-align: center;
+    margin: 20px;
+    font-size: 3rem;
+}
